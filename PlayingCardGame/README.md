@@ -1,18 +1,29 @@
-## Getting Started
+## 必要な機能
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1.トランプの絵柄決定 2.トランプの数値決定 3.数字の入力 4.入力された数字の正誤判定
+5.3~4 のループ 6.成功時のメッセージ 7.失敗時のメッセージ
 
-## Folder Structure
+## 実装画面
 
-The workspace contains two folders by default, where:
+トランプを選んだよ
+トランプの絵柄を当ててね
+0:ハート
+1:ダイヤ
+2:スペード
+3:クローバー
+どれだと思う?:[入力された数値]
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+─────────── 間違えていた場合 ─────────────
+残念！[入力されたもの]じゃないよ
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+─────────── 正解の場合 ─────────────────────
+正解！図柄は[決めていた図柄]だよ
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+次は数字を当ててね
+どれだと思う?:[入力された数値]
 
-## Dependency Management
+─────────── 間違えた場合 ───────────────────
+残念！[入力された数値]じゃないよ
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+───────────── 正解の場合 ────────────────────
+正解！[決められた数値]の[決められた図柄]だよ
